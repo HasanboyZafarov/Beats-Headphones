@@ -30,3 +30,50 @@
     margin: 0 auto;
     padding: 0 2%;
 }
+
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 1rem 0;
+    background: transparent;
+}
+
+header.active {
+    background: #fff;
+    box-shadow: 1px 0px 1px var(--color-dark);
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.header__icons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    width: 25%;
+    background-color: yellow;
+}
+
+i {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    background: red;
+    font-size: 20px;
+    border-radius: 50%;
+}
+
+.section__hero {
+    height: 100vh;
+    background-image: url('../img/hero-bg.svg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
